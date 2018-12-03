@@ -1,0 +1,7 @@
+<div ng-controller="mainCtrl">
+    <div class="table">
+        <ul class="list list-inline">
+            <li ng-repeat="link in navlinks" ng-bind-html="link | hyperlinks"></li>
+        </ul>
+    </div>
+</div>
